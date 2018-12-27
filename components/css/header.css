@@ -1,0 +1,40 @@
+.header { }
+
+.header__logo {
+	height: 50px;
+	line-height: 50px;
+	background: #565656;
+}
+
+.header__logo-text {
+	color: white;
+	font-size: 16px;
+	margin-left: 15px;
+	font-family: Roboto-Bold;
+	border-right: 5px solid #00e7ff;
+}
+
+.header__menu-list {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #333;
+}
+
+.header__menu-item {
+	float: left;
+}
+
+.header__menu-item:hover {
+	background: #565656;
+}
+
+.header__menu-item-link {
+	color: white;
+	display: block;
+	padding: 0 24px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 12px;
+	font-family: Roboto-Medium;
+	text-decoration: none;
+}
