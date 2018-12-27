@@ -19,12 +19,13 @@
 }
 
 body {
-	background: #f3f3f3;	
+	background: #f3f3f3;
 }
 
 .row {
 	margin: 0 auto;
 	display: block;
+	clear: left;
 }
 
 @media only screen and (min-width: 0px) {  }
@@ -46,13 +47,15 @@ body {
 		display: block;
 		max-width: 60px;
 		min-width: 60px;
+		min-height: 1px;
 	}
 
 	.col-xs-2 {
 		float: left;
 		display: block;
 		max-width: 120px;
-		min-width: 120px;	
+		min-width: 120px;
+		min-height: 1px;
 	}
 
 	.col-xs-3 {
@@ -60,6 +63,7 @@ body {
 		display: block;
 		max-width: 180px;
 		min-width: 180px;
+		min-height: 1px;
 	}
 
 	.col-xs-4 {
@@ -67,6 +71,7 @@ body {
 		display: block;
 		max-width: 240px;
 		min-width: 240px;
+		min-height: 1px;
 	}
 
 	.col-xs-5 {
@@ -74,6 +79,7 @@ body {
 		display: block;
 		max-width: 300px;
 		min-width: 300px;
+		min-height: 1px;
 	}
 
 	.col-xs-6 {
@@ -81,6 +87,7 @@ body {
 		display: block;
 		max-width: 360px;
 		min-width: 360px;
+		min-height: 1px;
 	}
 
 }
@@ -102,13 +109,15 @@ body {
 		display: block;
 		max-width: 120px;
 		min-width: 120px;
+		min-height: 1px;
 	}
 
 	.col-sm-2 {
 		float: left;
 		display: block;
 		max-width: 240px;
-		min-width: 240px;	
+		min-width: 240px;
+		min-height: 1px;
 	}
 
 	.col-sm-3 {
@@ -116,6 +125,7 @@ body {
 		display: block;
 		max-width: 360px;
 		min-width: 360px;
+		min-height: 1px;
 	}
 
 	.col-sm-4 {
@@ -123,6 +133,7 @@ body {
 		display: block;
 		max-width: 480px;
 		min-width: 480px;
+		min-height: 1px;
 	}
 
 	.col-sm-5 {
@@ -130,6 +141,7 @@ body {
 		display: block;
 		max-width: 600px;
 		min-width: 600px;
+		min-height: 1px;
 	}
 
 	.col-sm-6 {
@@ -137,6 +149,7 @@ body {
 		display: block;
 		max-width: 730px;
 		min-width: 730px;
+		min-height: 1px;
 	}
 
 }
@@ -158,13 +171,15 @@ body {
 		display: block;
 		max-width: 180px;
 		min-width: 180px;
+		min-height: 1px;
 	}
 
 	.col-md-2 {
 		float: left;
 		display: block;
 		max-width: 360px;
-		min-width: 360px;	
+		min-width: 360px;
+		min-height: 1px;
 	}
 
 	.col-md-3 {
@@ -172,6 +187,7 @@ body {
 		display: block;
 		max-width: 540px;
 		min-width: 540px;
+		min-height: 1px;
 	}
 
 	.col-md-4 {
@@ -179,6 +195,7 @@ body {
 		display: block;
 		max-width: 720px;
 		min-width: 720px;
+		min-height: 1px;
 	}
 
 	.col-md-5 {
@@ -186,6 +203,7 @@ body {
 		display: block;
 		max-width: 900px;
 		min-width: 900px;
+		min-height: 1px;
 	}
 
 	.col-md-6 {
@@ -193,6 +211,7 @@ body {
 		display: block;
 		max-width: 1080px;
 		min-width: 1080px;
+		min-height: 1px;
 	}
 
 }
@@ -214,13 +233,15 @@ body {
 		display: block;
 		max-width: 240px;
 		min-width: 240px;
+		min-height: 1px;
 	}
 
 	.col-lg-2 {
 		float: left;
 		display: block;
 		max-width: 480px;
-		min-width: 480px;	
+		min-width: 480px;
+		min-height: 1px;
 	}
 
 	.col-lg-3 {
@@ -228,6 +249,7 @@ body {
 		display: block;
 		max-width: 720px;
 		min-width: 720px;
+		min-height: 1px;
 	}
 
 	.col-lg-4 {
@@ -235,6 +257,7 @@ body {
 		display: block;
 		max-width: 960px;
 		min-width: 960px;
+		min-height: 1px;
 	}
 
 	.col-lg-5 {
@@ -242,6 +265,7 @@ body {
 		display: block;
 		max-width: 1200px;
 		min-width: 1200px;
+		min-height: 1px;
 	}
 
 	.col-lg-6 {
@@ -249,6 +273,7 @@ body {
 		display: block;
 		max-width: 1440px;
 		min-width: 1440px;
+		min-height: 1px;
 	}
 
 }
