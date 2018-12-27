@@ -1,0 +1,13 @@
+.errors {
+	padding: 5px;
+}
+
+.errors__item {
+	padding: 2px 0;
+	font-family: Roboto-Light;
+	font-size: 15px;
+}
+
+.errors__item_red {
+	color: red;
+}
