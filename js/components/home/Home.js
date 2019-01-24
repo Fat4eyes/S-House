@@ -1,5 +1,6 @@
 class Home extends React.Component {
   state = {
+    isLoading: true,
     rooms: []
   };
 
@@ -10,7 +11,7 @@ class Home extends React.Component {
       headers: {
         "Authorization": `Bearer ${getToken()}`
       },
-      success: result => this.setState({rooms: result}),
+      success: result => this.setState({rooms: result, isLoading: false}),
       error: () => alert('Вы не авторизованы')
     });
   }
@@ -19,6 +20,16 @@ class Home extends React.Component {
   render() {
     return <div className="container">
       <div className="row">
+        {this.state.isLoading && <React.Fragment>
+          <div style={{paddingTop:"100%", position:"relative"}}>
+            <iframe src="https://gifer.com/embed/U4Ai"
+                    width="100%"
+                    height="75%"
+                    style={{position:"absolute", top:0, left:0}}
+                    frameBorder="0"
+                    allowFullScreen/>
+          </div>
+        </React.Fragment>}
         {!!this.state.rooms.length && this.state.rooms.map(room =>
           <a key={room.id} href="#">
             <div className="item col-xs-6 col-sm-3 col-md-2 col-lg-2">
