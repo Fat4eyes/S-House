@@ -1,3 +1,3 @@
 const urls = {
-    api: 'http://www.smart-house.ru/api'
+    api: 'http://wsr.ru/api'
 };
