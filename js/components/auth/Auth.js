@@ -28,7 +28,7 @@ class Auth extends React.Component {
         };
 
         $.ajax({
-            url: 'http://www.smart-house.ru/api/login',
+            url: `${urls.api}/login`,
             data: data,
             contentType: 'application/x-www-form-urlencoded',
             type: 'POST',
